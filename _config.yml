@@ -54,30 +54,51 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-strapi:
-  # Your API endpoint (optional, default to http://localhost:1337)
-  endpoint: https://mya-cms.urbansoft.app
-  # Collections, key is used to access in the strapi.collections
-  # template variable
-  collections:
-    # Example for a "Photo" collection
-    about:
-      # Collection name (optional)
-      # type: photos
-      # Permalink used to generate the output files (eg. /articles/:id).
-      # permalink: /photos/:id/
-      # # Permalinks defined for different locales
-      # permalinks:
-      #   pl: "/zdjecia/:id"
-      # # Parameters (optional)
-      # parameters:
-      #   sort: title:asc
-      #   pagination[pageSize]: 10
-      # Populate page (optional, default "*")
-      # populate: "*"
-      # Layout file for this collection
-      layout: index.html
-      # Single request for collection, default false
-      single_request: true
-      # Generate output files or not (default: false)
-      output: true
+# strapi:
+#   # Your API endpoint (optional, default to http://localhost:1337)
+#   endpoint: https://mya-cms.urbansoft.app
+#   # Collections, key is used to access in the strapi.collections
+#   # template variable
+#   collections:
+#     # Example for a "Photo" collection
+#     allnews:
+#       # Collection name (optional)
+#       # type: photos
+#       # Permalink used to generate the output files (eg. /articles/:id).
+#       permalink: /news/:id/
+#       # # Permalinks defined for different locales
+#       # permalinks:
+#       #   pl: "/zdjecia/:id"
+#       # # Parameters (optional)
+#       # parameters:
+#       #   sort: title:asc
+#       #   pagination[pageSize]: 10
+#       # Populate page (optional, default "*")
+#       # populate: "*"
+#       # Layout file for this collection
+#       # layout: about.html
+#       # Single request for collection, default false
+#       single_request: true
+#       # Generate output files or not (default: false)
+#       output: true
+
+#     about:
+#       # Collection name (optional)
+#       # type: photos
+#       # Permalink used to generate the output files (eg. /articles/:id).
+#       permalink: /about/:id/
+#       # # Permalinks defined for different locales
+#       # permalinks:
+#       #   pl: "/zdjecia/:id"
+#       # # Parameters (optional)
+#       # parameters:
+#       #   sort: title:asc
+#       #   pagination[pageSize]: 10
+#       # Populate page (optional, default "*")
+#       # populate: "*"
+#       # Layout file for this collection
+#       # layout: about.html
+#       # Single request for collection, default false
+#       single_request: true
+#       # Generate output files or not (default: false)
+#       output: true
